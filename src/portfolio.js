@@ -6,10 +6,10 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Anurag Mishra',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    '',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -57,7 +57,10 @@ const skills = [
   'Redux',
   'SASS',
   'Material UI',
+  'Bootstrap',
   'Git',
+  'Docker',
+  'Kubernetes',
   'CI/CD',
   'Jest',
   'Enzyme',
@@ -65,7 +68,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'anurag89qa@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
